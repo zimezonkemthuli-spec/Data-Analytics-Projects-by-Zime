@@ -41,3 +41,49 @@ An interactive HR Analytics dashboard analyzing employee demographics, satisfact
 - Data Visualization & Storytelling
 - HR Analytics
 - Interactive Slicers & Filters
+
+
+# InventoryDB - SQL Assessment 1
+
+A relational inventory management database built with Microsoft SQL Server, created as part of my Database Management module at HiTech College.
+
+## 📊 Project Overview
+This project simulates a small retail inventory system that tracks items, customers, orders and sales. It demonstrates core SQL concepts from database creation to business intelligence queries.
+
+## 🗂️ Database Schema
+The database `InventoryDB` contains 4 related tables:
+
+- **Items** - Product catalog (ItemID, ItemName, Category, Price, StockQuantity)
+- **Customers1** - Customer information
+- **Orders1** - Customer orders with Foreign Key to Customers1
+- **OrderItems** - Order line items with Foreign Keys to Orders1 and Items
+
+## ✨ Key Features / Queries
+
+1.  **Database & Table Creation** with Primary Keys and Foreign Keys
+2.  **Data Insertion** - Sample data for Furniture, Stationery, Electronics
+3.  **Business Queries:**
+    - Display all orders
+    - Update Furniture prices by 10% using a sub-query
+    - Total quantity sold & revenue per item (JOIN + GROUP BY)
+4.  **Stored Procedures:**
+    - `GetBestSellingItem1` - Returns the top-selling item by revenue using TOP 1
+    - `GetCustomerOrderSummary1` - Shows total amount spent per customer
+
+## 🛠️ Technologies Used
+- Microsoft SQL Server 17.0 (SSMS)
+- T-SQL
+- Git & GitHub for version control
+
+## 🚀 How to Run
+1. Open SQL Server Management Studio
+2. Execute the script `SQL Assessment 1.sql`
+3. The script will create the database, tables, insert data and create stored procedures
+4. Run `EXEC GetBestSellingItem1;` and `EXEC GetCustomerOrderSummary1;` to test
+
+## 👩‍💻 Author
+**Snenhlanhla** - Aspiring Data Analyst | Durban, South Africa
+Focused on SQL, Power BI, and Python for data analytics.
+
+---
+*HiTechCollege - Database Systems Assessment 2024*
