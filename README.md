@@ -81,9 +81,18 @@ The database `InventoryDB` contains 4 related tables:
 3. The script will create the database, tables, insert data and create stored procedures
 4. Run `EXEC GetBestSellingItem1;` and `EXEC GetCustomerOrderSummary1;` to test
 
-## 👩‍💻 Author
-**Snenhlanhla** - Aspiring Data Analyst | Durban, South Africa
-Focused on SQL, Power BI, and Python for data analytics.
 
----
-*HiTechCollege - Database Systems Assessment 2024*
+Introduction to python programming
+
+covering core concepts for data analytics.
+
+## 📌 Covered Topics
+- Variables & Data Types
+- Conditional Statements (if/else)
+- Loops (for, while)
+- Functions
+- File Handling & Error Handling
+
+## 🛠️ Tech Stack
+- Python 3.x
+- VS Code
